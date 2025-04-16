@@ -142,6 +142,13 @@ p  {
     cursor: pointer;
 }
 
+.Testo h4{
+    margin: 12px 32px;
+   
+    
+    
+}
+
 .Cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
