@@ -162,6 +162,10 @@ p  {
     object-fit: cover;
 }
 
+.Box img {
+    object-fit: cover;
+}
+
 .Cardsparchi img {
     width: 100%;
     height: 100%;
