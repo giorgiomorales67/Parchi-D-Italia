@@ -115,6 +115,7 @@ p  {
     max-width: 900px;
     margin: auto;
     padding: 20px;
+    line-height: 1.2;
 }
 
 .Hero p {
