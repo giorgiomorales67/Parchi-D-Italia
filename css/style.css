@@ -1,0 +1,712 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+main {
+    font-family: "Inter";
+}
+header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.Testo p {
+    max-width: 800px;
+    margin: auto;
+    padding: 16px;
+
+}
+
+.Testo h4 {
+    font-family: "Inter";
+    color: rgb(227, 213, 20);
+    font-size: 32px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.Testo-4 img {
+    max-width: 500px;
+    max-height: 800px ;
+    border-radius: 4px;
+}
+
+.Testo-3 img {
+    max-width: 600px;
+    max-width: 300px;
+    border-radius: 6px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 36px;
+    }
+
+
+
+.EtnaFoto img {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 126px;
+    
+    }
+
+
+.VesuvioFoto img {
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 64px;
+        margin-bottom: 126px;
+     }
+
+.Testo p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+header ul {
+    list-style: none;
+    text-align: right;
+    word-spacing: 26px;
+    display: flex;
+    justify-content: space-between; 
+    color: whitesmoke;  
+    font-family: Helvetica, sans-serif;
+    gap: 64px;
+    font-weight: lighter;
+    padding: -62px;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header nav a:hover {
+    color: silver;
+    text-decoration: underline;
+}
+
+p  {
+    color: whitesmoke;
+}
+
+.Hero {
+    background-color: rgb(227, 213, 20);
+    max-width: 100%;
+
+}
+
+.Hero H1 {
+    color: black;
+    font-family: "Inter";
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+    word-spacing: -5px;
+    margin-bottom: 4px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.Hero p {
+    color: black;
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    margin: auto;
+    max-width: 550px;
+    padding: 20px;
+}
+
+.Cards img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    
+}
+
+.Cards img:hover {
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+    padding: 64px;
+    gap: 64px;
+    padding-bottom: 64px;
+}
+.Cardsparchi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin: auto;
+    padding: 64px;
+    gap: 64px;
+    padding-bottom: 64px;
+    object-fit: cover;
+}
+
+.Cardsparchi img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    
+}
+
+.Cardsparchi img:hover {
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.Box p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin: 6px;
+    max-width: 250px;
+    margin-bottom: 64px;
+    margin-top: 4px; 
+    color: black;  
+
+}
+
+.Extra a {
+    text-decoration: none;
+}
+
+.Box a {
+    text-decoration: none;
+}
+
+.Box p:hover {
+    color: rgb(30, 30, 30);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+}
+
+.Box {
+    background-color: rgb(227, 213, 20);
+    border-radius: 6px;
+    padding: 0px 0px 52px 0px;
+}
+
+.Attività p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    margin: 16px;
+    display: flex;
+    max-width: 600px;
+    margin: 64px 320px
+
+}
+
+.Sport div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: 1fr;
+    display: grid;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-width: 1px;
+    padding-top: 96px;
+    max-width: 1100px;
+
+}
+
+.Sport img:hover {
+        transform: scale(0.95);
+        transition: all 0.3s ease-in-out;
+}
+
+.Sport img {
+    max-width: 700px;
+    max-height: 100%;
+    border-radius: 6px;
+    border-radius: 10px;
+    height: 100%;
+    width: 600px;
+    object-fit: cover;
+    object-position: center;
+    gap: 32px;
+    margin-left: 96px;
+}
+
+.Sport ul {
+    color: whitesmoke;
+    font-family: "Inter";
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 96px;
+    
+}
+
+.Sport p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+
+h3 {
+    font-family: "Inter";
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 96px;
+    padding-top: -32px;
+    
+}
+
+
+.paragrafo p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+.paragrafo h2 {
+    font-family: "Inter";
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    margin-bottom: 36px;
+}
+
+    
+
+.Cards p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    margin-bottom: 64px;
+    margin-top: 4px; 
+    color: black;  
+
+}
+
+.Cards p:hover {
+    color: rgb(30, 30, 30);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+}
+
+.VesFoto img {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    border-radius: 6px;
+    padding: 18px;
+}
+
+.SilaFoto img {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    border-radius: 6px;
+    padding: 18px;
+}
+.AbbruzzoFoto img {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    border-radius: 6px;
+    padding: 18px;
+}
+
+
+
+.Extra {
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   padding: 10px;
+   margin: auto;
+   max-width: 1250px;
+   margin-top: 64px;
+   border-top: 1px solid rgb(255, 255, 255);
+   border-width: 1px;
+   padding-bottom: 96px;
+   padding-top: 64px;
+   }
+
+.Extra img {
+    max-width: 800px;
+    max-height: 1000px;
+    border-radius: 6px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.Extra p {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+}
+
+.Extra p:hover {
+    text-decoration: underline;
+    color: silver;
+}
+
+.Extra img:hover {
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+footer {
+    margin-top: 96px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-width: 1px;
+    
+}
+
+footer p {
+    text-align: left;
+    font-family: "Inter";
+    font-size: 9px;
+    font-weight: 100;
+    margin-top: 32px;
+    padding-top: 64px;
+    gap: 10px;
+    max-width: 250px;
+    padding-left: 64px;
+
+
+}
+
+footer a {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 200;
+    padding-left: 46px;
+    padding-top: 96px;
+    max-width: 150px;
+    margin-left: 96px;
+    align-items: center;
+    margin-left: 110px;   
+}
+    
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: silver;
+}
+
+.Logo {
+    margin-left: 64px;
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+
+.Testo-4 img {
+    max-width: 350px;
+    border-radius: 6px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 14px;
+
+}
+
+.VegSila img {
+    max-width: 600px;
+    border-radius: 6px;
+    margin: auto;
+    padding: 14px;
+    display: flex;
+    padding-bottom: 32px;
+}
+
+.VegToscano img {
+    display: flex;
+   gap: 10px;
+   padding: 10px;
+   margin: auto;
+   max-width: 600px;
+}
+
+.PAbbruzzo img {
+    max-width: 600px;
+    border-radius: 6px;
+    margin: auto;
+    padding: 14px;
+    display: flex;
+    padding-bottom: 32px;
+}
+
+.ToscanoFoto img {
+    max-width: 1000px;
+    border-radius: 6px;
+    margin: auto;
+    padding: 14px;
+    display: flex;
+    padding-bottom: 32px;
+}
+
+.Elba img {
+    max-width: 700px;
+    border-radius: 6px;
+    margin: auto;
+    padding: 14px;
+    display: flex;
+    padding-bottom: 32px;
+}
+
+@media screen and (max-width: 600px) {
+
+    header ul {
+        display: flex;
+        flex-direction: row; 
+        gap: 16px;
+        font-size: 14px;
+        margin: 16px;
+    }
+    .Logo {
+        margin: 16px;
+        margin-left: 32px;
+        margin-bottom: 64px;
+    }
+
+    .Hero H1 {
+        font-size: 48px;
+    }
+    .Hero p {
+        font-size: 14px;
+        padding: 6px;
+        max-width: 500px;
+    }
+
+    .Cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 800px;
+        margin: auto;
+        padding: 64px;
+        gap: 64px;
+        padding-bottom: 64px;
+    }
+    
+    .Extra {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 52px;
+    }
+
+    footer p {
+        text-align: left;
+        font-family: "Inter";
+        font-size: 9px;
+        font-weight: 100;
+        margin-top: 32px;
+        padding-top: 32px;
+        gap: 10px;
+        max-width: 150px;
+        padding-left: 32px;
+        
+    }
+
+    footer a {
+        font-size: 12px;
+        font-weight: 200;
+        padding-left: 6px;
+        padding-top: 180px;
+        max-width: 200px;
+        margin-left: 48px;
+        align-items: center;
+        margin-left: 68px;
+        
+
+
+    }
+
+    .Cardsparchi {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1000px;
+        margin: auto;
+        padding: 48px;
+        gap: 48px;
+        padding-bottom: 64px;
+        object-fit: cover;
+        
+    }
+
+    .Attività p {
+        font-size: 12px;
+        max-width: 500px;
+        display: flex;
+        margin: 64px 60px;
+        
+    }
+
+    .Sport div {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+        margin: 32px;
+        grid-template-columns: 1fr;
+        display: grid;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-width: 1px;
+        padding-top: 48px;
+        max-width: 500px;
+    }
+
+    .Sport div img {
+        max-width: 400px;
+        max-height: 400px;
+        margin-left: 48px;
+    }
+
+    .Sport div ul {
+        margin: 32px;
+        font-size: 14px; 
+        padding-bottom: 4px;
+        gap: 10px;
+        
+    }
+
+    .Sport div h3 {
+        font-size: 28px;
+        text-align: left;
+        margin-bottom: -24px;
+    }
+
+    .Testo-3 img {
+        max-width: 500px;
+        max-width: 300px;
+        border-radius: 6px;
+        margin: auto;
+        justify-content: space-between;
+        padding: 26px;
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+
+    }
+
+    .Testo h4 {
+        font-size: 22px;
+        margin: 0 16px;
+    }
+
+    .EtnaFoto img {
+        display: flex;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 64px;
+        margin-bottom: 48px;
+        
+    }
+    .VesuvioFoto img {
+        display: flex;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 64px;
+        margin-bottom: 48px;
+    }
+
+    .VesFoto img {
+        max-width: 450px;
+        margin: auto;
+        display: flex;
+        border-radius: 6px;
+    }
+
+    .Testo-4 img {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px;
+        max-width: 450px;
+        
+    }
+
+    .AbbruzzoFoto img {
+        max-width: 500px;
+        margin: auto;
+        display: flex;
+        border-radius: 6px;
+        padding: 18px;
+    }
+
+    .PAbbruzzo img {
+        max-width: 450px;
+        border-radius: 6px;
+        margin: auto;
+        padding: 14px;
+        display: flex;
+        padding-bottom: 32px;
+    }
+
+    .ToscanoFoto img {
+        max-width: 450px;
+        border-radius: 6px;
+        margin: auto;
+        padding: 14px;
+        display: flex;
+        padding-bottom: 32px;
+    }
+
+    .Elba img {
+        max-width: 450px;
+        border-radius: 6px;
+        margin: auto;
+        padding: 14px;
+        display: flex;
+        padding-bottom: 32px;
+    }
+
+    .SilaFoto img {
+        max-width: 450px;
+    }
+
+
+}
+    
