@@ -67,8 +67,8 @@ header {
 .Testo p {
     font-size: 16px;
     font-weight: 300;
-}
-
+    margin: auto; 
+    }
 
 
 header ul {
@@ -270,8 +270,6 @@ p  {
     font-size: 14px;
     font-weight: 200;
 }
-
-
 
 h3 {
     font-family: "Inter";
