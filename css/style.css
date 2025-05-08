@@ -149,6 +149,19 @@ p  {
     
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 16px;
+}
+
+.button a:hover {
+    scale: 1.05;
+    transition: all 0.3s ease-in-out;
+}
+
 .Cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
