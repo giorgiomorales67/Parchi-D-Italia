@@ -245,10 +245,6 @@ p  {
 
 }
 
-.Sport img:hover {
-        transform: scale(0.95);
-        transition: all 0.3s ease-in-out;
-}
 
 .Sport img {
     max-width: 700px;
