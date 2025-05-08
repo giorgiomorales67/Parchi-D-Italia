@@ -398,11 +398,6 @@ h3 {
     color: silver;
 }
 
-.Extra img:hover {
-    transform: scale(0.95);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
 
 
 footer {
