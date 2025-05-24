@@ -301,6 +301,19 @@ h3 {
     
 }
 
+.button {
+    background: rgb(227, 213, 20);
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease,;
+}
+
+.button:hover {
+    background: #ffd633;
+}
 
 .paragrafo p {
     font-family: "Inter";
