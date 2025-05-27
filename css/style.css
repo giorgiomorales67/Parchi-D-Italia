@@ -309,6 +309,7 @@ h3 {
     border-radius: 20px;
     cursor: pointer;
     transition: 0.3s ease,;
+    max-width: 750px;
 }
 
 .button:hover {
